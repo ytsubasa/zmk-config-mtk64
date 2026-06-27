@@ -41,7 +41,7 @@ https://github.com/mentako-ya/zmk-config-mtk64/tree/right_left
 
 ### 左右＋フットスイッチ無線化モジュール用ブランチ
 
-https://github.com/mentako-ya/zmk-config-mtk64/tree/maste/right_left_foot
+https://github.com/mentako-ya/zmk-config-mtk64/tree/right_left_foot
 
 ### 左右＋ドングルモジュール用ブランチ
 
