@@ -42,11 +42,18 @@
 
 / {
     macros {
-        new_macro: new_macro {
+        lang1_reset: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&to 0 &kp LC(LANGUAGE_1)>;
             label = "NEW_MACRO";
+        };
+
+        lang2_reset: lang2_reset {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LANGUAGE_2>;
+            label = "LANG2_RESET";
         };
     };
 
@@ -105,7 +112,7 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RETURN  &kp DELETE  &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &trans  &lt 3 RIGHT_BRACKET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RETURN  &kp DELETE  &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans  &trans  &lang1_reset  &trans  &trans  &lang2_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
