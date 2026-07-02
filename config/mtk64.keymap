@@ -99,10 +99,9 @@
 &kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <
-                &scroll_left_right SCRL_LEFT SCRL_RIGHT
-                &scroll_up_down SCRL_UP SCRL_DOWN
-            >;
+            sensor-bindings =
+                <&scroll_left_right SCRL_RIGHT SCRL_LEFT>,
+                <&scroll_up_down SCRL_UP SCRL_DOWN>;
         };
 
         layer_4 {
