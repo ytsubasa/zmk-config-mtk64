@@ -37,7 +37,6 @@
 
             tap-ms = <20>; // スクロールのタップ時間
         };
-
     };
 };
 
@@ -55,6 +54,13 @@
             #binding-cells = <0>;
             bindings = <&to 0 &kp LANGUAGE_2>;
             label = "LANG2_RESET";
+        };
+
+        at_Layer3: at_Layer3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "AT_LAYER3";
         };
     };
 
@@ -113,7 +119,7 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &trans  &lt 3 RIGHT_BRACKET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RETURN  &kp DELETE  &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans  &trans  &lang2_reset  &trans  &trans  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &trans  &mo 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RETURN  &kp DELETE  &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans  &trans  &lang2_reset  &trans  &trans  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
