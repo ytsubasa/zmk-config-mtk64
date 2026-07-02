@@ -119,7 +119,7 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &trans  &mo 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RETURN  &kp DELETE  &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans  &trans  &lang2_reset  &trans  &trans  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &trans  &mo 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RETURN  &kp DELETE  &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans  &trans  &lang2_reset  &trans  &trans  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
