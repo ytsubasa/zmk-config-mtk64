@@ -38,20 +38,6 @@
             tap-ms = <20>; // スクロールのタップ時間
         };
 
-        // 長押し専用Layer3
-        hold_layer3_only: hold_layer3_only {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_LAYER3_ONLY";
-            #binding-cells = <0>;
-
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-
-            bindings = <&mo 3 &none>;
-        };
-
-
     };
 };
 
@@ -77,7 +63,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RBKT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &hold_layer3_only  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp SPACE  &kp SPACE  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RETURN  &kp LALT  &kp LGUI  &lt 1 LANG2  &kp LG(C)  &kp BSPC  &lt 2 LANGUAGE_1  &kp UNDER  &kp RIGHT_SHIFT  &tog 2  &kp ENTER  &lt 6 LG(V)  &lt 1 ENTER  &kp ENTER  &tog 2  &lt 3 RETURN  &kp DELETE  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RBKT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &lt 3 NUHS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp SPACE  &kp SPACE  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RETURN  &kp LALT  &kp LGUI  &lt 1 LANG2  &kp LG(C)  &kp BSPC  &lt 2 LANGUAGE_1  &kp UNDER  &kp RIGHT_SHIFT  &tog 2  &kp ENTER  &lt 6 LG(V)  &lt 1 ENTER  &kp ENTER  &tog 2  &lt 3 RETURN  &kp DELETE  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings =
