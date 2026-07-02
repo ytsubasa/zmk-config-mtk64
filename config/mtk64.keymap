@@ -66,8 +66,8 @@
             >;
 
             sensor-bindings =
-                <&scroll_up_down SCRL_DOWN SCRL_UP>,
-                <&scroll_up_down MOVE_Y(20) MOVE_Y(-20)>;
+                <&inc_dec_kp LEFT RIGHT>,
+                <&scroll_up_down SCRL_DOWN SCRL_UP>;
         };
 
         layer_1 {
