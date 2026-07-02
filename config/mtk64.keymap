@@ -48,7 +48,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
 
-            bindings = <&mo 3>, <&none>;
+            bindings = <&mo 3 &none>;
         };
 
 
