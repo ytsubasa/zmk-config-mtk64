@@ -69,7 +69,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RBKT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &lt 3 NUHS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp BACKSPACE  &kp BACKSPACE  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RETURN  &kp LALT  &kp LGUI  &lt 1 SPACE  &kp LG(C)  &kp BSPC  &lt 2 SPACE  &kp UNDER  &kp RIGHT_SHIFT  &tog 2  &kp ENTER  &lt 6 LG(V)  &lt 1 ENTER  &kp ENTER  &tog 2  &lt 3 LANGUAGE_2  &kp LANGUAGE_1  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RBKT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &lt 3 NUHS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp BACKSPACE  &kp BACKSPACE  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp RETURN  &kp LALT  &kp LGUI  &lt 1 LANGUAGE_2  &kp LG(C)  &kp BSPC  &lt 2 LANGUAGE_1  &kp UNDER  &kp RIGHT_SHIFT  &tog 2  &kp ENTER  &lt 6 LG(V)  &lt 1 ENTER  &kp ENTER  &tog 2  &lt 3 SPACE  &kp SPACE  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings =
@@ -118,7 +118,7 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &trans  &mo 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DELETE  &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans  &trans  &to 0  &trans  &trans  &to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &trans  &mo 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DELETE  &kp LG(C)  &kp LG(V)  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans  &trans  &lang2_reset  &trans  &trans  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0  &to 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
