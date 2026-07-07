@@ -92,13 +92,18 @@
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
         require-prior-idle-ms = <500>;
-        excluded-positions = <
-            43  // ] 
-            44  // N
-            45  // M
-            46  // <
-            47  // >
-        >; 
-    };
+
+
+        // Auto mouse layerバグのため無効
+     //   excluded-positions = <
+          //  43  // ] 
+          //  44  // N
+          //  45  // M
+          //  46  // <
+          //  47  // >
+      //  >; 
+
+
+};
 
 };
