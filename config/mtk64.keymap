@@ -52,7 +52,7 @@
         lang2_reset: lang2_reset {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LANGUAGE_2>;
+            bindings = <&to 0 &kp LANGUAGE_2>;
             label = "LANG2_RESET";
         };
 
