@@ -100,7 +100,7 @@
             >;
 
             sensor-bindings =
-                <&scroll_left_right SCRL_LEFT SCRL_RIGHT>,
+                <&scroll_left_right SCRL_RIGHT SCRL_LEFT>,
                 <&scroll_up_down SCRL_DOWN SCRL_UP>;
         };
 
