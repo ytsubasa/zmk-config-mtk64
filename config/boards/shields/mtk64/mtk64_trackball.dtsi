@@ -72,11 +72,12 @@
         status = "disabled";
         device = <&trackball>;
 
-        snipe {
-        layers = <1>;
-        input-processors = <&zip_xy_scaler 1 2>;
-        process-next;
-        };
+    // レイヤー1を完成カスタマイズにするめ精緻マウスモードを廃止
+     //   snipe {
+     //   layers = <1>;
+     //   input-processors = <&zip_xy_scaler 1 2>;
+     //   process-next;
+     //   };
 
         scroll {
         layers = <3>;
