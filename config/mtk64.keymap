@@ -65,7 +65,13 @@
         Hold_To_Layer1: Hold_To_Layer1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &lt 1 SPACE>;
+            bindings =
+                <&to 0>,
+                <&macro_press>,
+                <&lt 1 SPACE>,
+                <&macro_pause_for_release>,
+                <&macro_release>;
+
             label = "HOLD_TO_LAYER1";
         };
     };
