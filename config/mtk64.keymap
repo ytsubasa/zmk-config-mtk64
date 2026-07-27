@@ -45,6 +45,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        hold_only: hold_only {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_ONLY";
+            bindings = <&kp>, <&trans>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 };
 
