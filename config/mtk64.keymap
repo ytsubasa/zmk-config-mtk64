@@ -9,9 +9,8 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 &mt {
-    flavor = "balanced";
+    flavor = "tap-preferred";
     quick-tap-ms = <0>;
-    tapping-term-ms = <300>;
 };
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 6 5000>; };
@@ -44,7 +43,8 @@
             bindings = <&mo1to0>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
         };
     };
 };
