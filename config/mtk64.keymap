@@ -98,7 +98,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RBKT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &lt 3 NUHS  &kp LSHFT  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &mt LEFT_GUI V  &kp B  &kp BACKSPACE  &kp BACKSPACE  &kp N  &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL DOT  &mt RIGHT_SHIFT SLASH  &kp RETURN  &kp LALT  &kp LGUI  &layer1_tap 0 SPACE  &lt 2 SPACE  &kp BSPC  &kp SPACE  &kp JP_UNDER  &kp RIGHT_SHIFT  &tog 2  &kp ENTER  &none  &lt 1 ENTER  &kp ENTER  &tog 2  &kp LANGUAGE_2  &kp LANGUAGE_1  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RBKT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &lt 3 NUHS  &kp LSHFT  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &mt LEFT_GUI V  &kp B  &kp BACKSPACE  &kp BACKSPACE  &kp N  &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL DOT  &mt RIGHT_SHIFT SLASH  &kp RETURN  &kp LALT  &kp LGUI  &layer1_tap 0 SPACE  &lt 2 SPACE  &kp BSPC  &layer4_tap 0 SPACE  &kp JP_UNDER  &kp RIGHT_SHIFT  &tog 2  &kp ENTER  &none  &lt 1 ENTER  &kp ENTER  &tog 2  &kp LANGUAGE_2  &kp LANGUAGE_1  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings =
