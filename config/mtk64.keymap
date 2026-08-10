@@ -154,6 +154,27 @@
             bindings = <&to 0 &kp Q>;
             label = "TO0_KP_Q";
         };
+
+        to0_kp_1: to0_kp_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp NUMBER_1>;
+            label = "TO0_KP_1";
+        };
+
+        to0_kp_2: to0_kp_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp NUMBER_2>;
+            label = "TO0_KP_2";
+        };
+
+        to0_kp_3: to0_kp_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp NUMBER_3>;
+            label = "TO0_KP_3";
+        };
     };
 
     keymap {
