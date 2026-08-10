@@ -359,7 +359,7 @@
         mo0toShift: mo0toShift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0>, <&macro_pause_for_release>, <&kp LEFT_SHIFT>;
+            bindings = <&to 0 &kp LEFT_SHIFT>, <&macro_pause_for_release>;
 
             label = "MO0TOSHIFT";
         };
@@ -367,7 +367,7 @@
         mo0toControl: mo0toControl {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0>, <&macro_pause_for_release>, <&kp LEFT_CONTROL>;
+            bindings = <&to 0 &kp LEFT_CONTROL>, <&macro_pause_for_release>;
 
             label = "MO0TOCONTROL";
         };
@@ -375,7 +375,7 @@
         mo0toOption: mo0toOption {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0>, <&macro_pause_for_release>, <&kp LEFT_ALT>;
+            bindings = <&to 0 &kp LEFT_ALT>, <&macro_pause_for_release>;
 
             label = "MO0TOOPTION";
         };
@@ -383,7 +383,7 @@
         mo0toCommand: mo0toCommand {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0>, <&macro_pause_for_release>, <&kp LEFT_GUI>;
+            bindings = <&to 0 &kp LEFT_GUI>, <&macro_pause_for_release>;
 
             label = "MO0TOCOMMAND";
         };
