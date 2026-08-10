@@ -224,6 +224,34 @@
             bindings = <&to 0 &kp N0>;
             label = "TO0_KP_0";
         };
+
+        to0_kp_W: to0_kp_W {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp W>;
+            label = "TO0_KP_W";
+        };
+
+        to0_kp_S: to0_kp_S {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp S>;
+            label = "TO0_KP_S";
+        };
+
+        to0_kp_E: to0_kp_E {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp E>;
+            label = "TO0_KP_E";
+        };
+
+        to0_kp_D: to0_kp_D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp E>;
+            label = "TO0_KP_D";
+        };
     };
 
     keymap {
