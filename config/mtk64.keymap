@@ -419,7 +419,7 @@
             >;
         };
 
-        layer_3 {
+        layer_3_Scroll {
             bindings = <
 &kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -441,7 +441,7 @@
             >;
         };
 
-        layer_6 {
+        layer_6_AutoMouse {
             bindings = <
 &to0_kp_ESC  &to0_kp_1  &to0_kp_2  &to0_kp_3  &to0_kp_4  &to0_kp_5  &to0_kp_6  &to0_kp_7  &to0_kp_8  &to0_kp_9  &to0_kp_0  &trans  &to0_kp_TAB  &to0_kp_Q  &to0_kp_W  &to0_kp_E  &to0_kp_R  &to0_kp_T  &kp F11  &kp F12  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LS(F))  &trans  &to0_kp_Control  &to0_kp_A  &to0_kp_S  &to0_kp_D  &to0_kp_F  &to0_kp_G  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &to0_kp_Shift  &to0_z_holdShift 0 0  &to0_x_holdControl 0 0  &to0_c_holdOption 0 0  &to0_v_holdCommand 0 0  &to0_kp_B  &to0_kp_BackSpace  &to0_kp_BackSpace  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &to0_kp_Option  &to0_kp_Command  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
