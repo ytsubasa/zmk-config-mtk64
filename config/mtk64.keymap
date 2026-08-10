@@ -67,6 +67,16 @@
             tapping-term-ms = <300>;
             flavor = "tap-preferred";
         };
+
+        to0_x_holdControl: to0_x_holdControl {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TO0_X_HOLDCONTROL";
+            bindings = <&mo0toControl>, <&to0_kp_X>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
     };
 };
 
