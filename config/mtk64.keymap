@@ -133,6 +133,27 @@
             bindings = <&to 0 &kp LEFT_GUI>;
             label = "TO0_KP_COMMAND";
         };
+
+        to0_kp_A: to0_kp_A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp A>;
+            label = "TO0_KP_A";
+        };
+
+        to0_kp_B: to0_kp_B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp B>;
+            label = "TO0_KP_B";
+        };
+
+        to0_kp_Q: to0_kp_Q {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp Q>;
+            label = "TO0_KP_Q";
+        };
     };
 
     keymap {
