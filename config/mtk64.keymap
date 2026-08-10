@@ -249,8 +249,43 @@
         to0_kp_D: to0_kp_D {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &kp E>;
+            bindings = <&to 0 &kp D>;
             label = "TO0_KP_D";
+        };
+
+        to0_kp_R: to0_kp_R {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp R>;
+            label = "TO0_KP_R";
+        };
+
+        to0_kp_F: to0_kp_F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp F>;
+            label = "TO0_KP_F";
+        };
+
+        to0_kp_T: to0_kp_T {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp T>;
+            label = "TO0_KP_T";
+        };
+
+        to0_kp_G: to0_kp_G {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp G>;
+            label = "TO0_KP_G";
+        };
+
+        to0_kp_BackSpace: to0_kp_B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp BACKSPACE>;
+            label = "TO0_KP_B";
         };
     };
 
