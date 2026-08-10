@@ -343,7 +343,7 @@
 
         layer_6 {
             bindings = <
-&to0_kp_ESC  &to0_kp_1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to0_kp_TAB  &to0_kp_Q  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LS(F))  &trans  &to0_kp_Control  &to0_kp_A  &trans  &trans  &trans  &to0_trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &to0_kp_Shift  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &to0_kp_Option  &to0_kp_Command  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to0_kp_ESC  &to0_kp_1  &to0_kp_2  &to0_kp_3  &to0_kp_4  &to0_kp_5  &trans  &trans  &trans  &trans  &trans  &trans  &to0_kp_TAB  &to0_kp_Q  &to0_kp_W  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LS(F))  &trans  &to0_kp_Control  &to0_kp_A  &to0_kp_S  &trans  &trans  &to0_trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &to0_kp_Shift  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &to0_kp_Option  &to0_kp_Command  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
