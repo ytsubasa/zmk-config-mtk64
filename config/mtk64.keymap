@@ -126,6 +126,13 @@
             bindings = <&to 0 &kp LEFT_ALT>;
             label = "TO0_KP_OPTION";
         };
+
+        to0_kp_Command: to0_kp_Command {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LEFT_GUI>;
+            label = "TO0_KP_COMMAND";
+        };
     };
 
     keymap {
