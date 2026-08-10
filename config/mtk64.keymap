@@ -139,69 +139,6 @@
             label = "TO0_KP_ESC";
         };
 
-        to0_kp_TAB: to0_kp_TAB {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 0 &kp TAB>;
-            label = "TO0_KP_TAB";
-        };
-
-        to0_kp_Control: to0_kp_Control {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&to 0>,
-                <&macro_press>,
-                <&kp LEFT_CONTROL>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_CONTROL>;
-
-            label = "TO0_KP_CONTROL";
-        };
-
-        to0_kp_Shift: to0_kp_Shift {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&to 0>,
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT>;
-
-            label = "TO0_KP_SHIFT";
-        };
-
-        to0_kp_Option: to0_kp_Option {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&to 0>,
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_ALT>;
-
-            label = "TO0_KP_OPTION";
-        };
-
-        to0_kp_Command: to0_kp_Command {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&to 0>,
-                <&macro_press>,
-                <&kp LEFT_GUI>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_GUI>;
-
-            label = "TO0_KP_COMMAND";
-        };
-
         to0_kp_A: to0_kp_A {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -383,62 +320,6 @@
             bindings = <&to 0 &kp V>;
             label = "TO0_KP_V";
         };
-
-        mo0toShift: mo0toShift {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&to 0>,
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT>;
-
-            label = "MO0TOSHIFT";
-        };
-
-        mo0toControl: mo0toControl {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&to 0>,
-                <&macro_press>,
-                <&kp LEFT_CONTROL>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_CONTROL>;
-
-            label = "MO0TOCONTROL";
-        };
-
-        mo0toOption: mo0toOption {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&to 0>,
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_ALT>;
-
-            label = "MO0TOOPTION";
-        };
-
-        mo0toCommand: mo0toCommand {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&to 0>,
-                <&macro_press>,
-                <&kp LEFT_GUI>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_GUI>;
-
-            label = "MO0TOCOMMAND";
-        };
     };
 
     keymap {
@@ -495,7 +376,7 @@
 
         layer_6_AutoMouse {
             bindings = <
-&to0_kp_ESC  &to0_kp_1  &to0_kp_2  &to0_kp_3  &to0_kp_4  &to0_kp_5  &to0_kp_6  &to0_kp_7  &to0_kp_8  &to0_kp_9  &to0_kp_0  &trans  &to0_kp_TAB  &to0_kp_Q  &to0_kp_W  &to0_kp_E  &to0_kp_R  &to0_kp_T  &kp F11  &kp F12  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LS(F))  &trans  &to0_kp_Control  &to0_kp_A  &to0_kp_S  &to0_kp_D  &to0_kp_F  &to0_kp_G  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &to0_kp_Shift  &to0_z_holdShift LEFT_SHIFT 0  &to0_x_holdControl LEFT_CONTROL 0  &to0_c_holdOption LEFT_ALT 0  &to0_v_holdCommand LEFT_GUI 0  &to0_kp_B  &to0_kp_BackSpace  &to0_kp_BackSpace  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &to0_kp_Option  &to0_kp_Command  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to0_kp_ESC  &to0_kp_1  &to0_kp_2  &to0_kp_3  &to0_kp_4  &to0_kp_5  &to0_kp_6  &to0_kp_7  &to0_kp_8  &to0_kp_9  &to0_kp_0  &trans  &trans  &to0_kp_Q  &to0_kp_W  &to0_kp_E  &to0_kp_R  &to0_kp_T  &kp F11  &kp F12  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LS(F))  &trans  &trans  &to0_kp_A  &to0_kp_S  &to0_kp_D  &to0_kp_F  &to0_kp_G  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &trans  &to0_z_holdShift LEFT_SHIFT 0  &to0_x_holdControl LEFT_CONTROL 0  &to0_c_holdOption LEFT_ALT 0  &to0_v_holdCommand LEFT_GUI 0  &to0_kp_B  &to0_kp_BackSpace  &to0_kp_BackSpace  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
