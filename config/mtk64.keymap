@@ -315,6 +315,38 @@
             bindings = <&to 0 &kp V>;
             label = "TO0_KP_V";
         };
+
+        mo0toShift: mo0toShift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0>, <&macro_pause_for_release>, <&kp LEFT_SHIFT>;
+
+            label = "MO0TOSHIFT";
+        };
+
+        mo0toControl: mo0toControl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0>, <&macro_pause_for_release>, <&kp LEFT_CONTROL>;
+
+            label = "MO0TOCONTROL";
+        };
+
+        mo0toOption: mo0toOption {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0>, <&macro_pause_for_release>, <&kp LEFT_ALT>;
+
+            label = "MO0TOOPTION";
+        };
+
+        mo0toCommand: mo0toCommand {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0>, <&macro_pause_for_release>, <&kp LEFT_GUI>;
+
+            label = "MO0TOCOMMAND";
+        };
     };
 
     keymap {
