@@ -287,6 +287,34 @@
             bindings = <&to 0 &kp BACKSPACE>;
             label = "TO0_KP_BACKSPACE";
         };
+
+        to0_kp_Z: to0_kp_Z {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp Z>;
+            label = "TO0_KP_Z";
+        };
+
+        to0_kp_X: to0_kp_X {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp X>;
+            label = "TO0_KP_X";
+        };
+
+        to0_kp_C: to0_kp_C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp C>;
+            label = "TO0_KP_C";
+        };
+
+        to0_kp_V: to0_kp_V {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp V>;
+            label = "TO0_KP_V";
+        };
     };
 
     keymap {
