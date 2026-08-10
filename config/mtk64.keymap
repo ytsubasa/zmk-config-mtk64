@@ -91,6 +91,13 @@
 
             label = "MO4TO0";
         };
+
+        to0_trans: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &trans>;
+            label = "NEW_MACRO";
+        };
     };
 
     keymap {
