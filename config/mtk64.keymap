@@ -112,6 +112,20 @@
             bindings = <&to 0 &kp LEFT_CONTROL>;
             label = "TO0_KP_CONTROL";
         };
+
+        to0_kp_Shift: to0_kp_Shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LEFT_SHIFT>;
+            label = "TO0_KP_SHIFT";
+        };
+
+        to0_kp_Option: to0_kp_Option {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LEFT_ALT>;
+            label = "TO0_KP_OPTION";
+        };
     };
 
     keymap {
