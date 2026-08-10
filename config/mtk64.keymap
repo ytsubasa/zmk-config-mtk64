@@ -57,6 +57,16 @@
             tapping-term-ms = <300>;
             flavor = "tap-preferred";
         };
+
+        to0_z_holdShift: to0_z_holdShift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TO0_Z_HOLDSHIFT";
+            bindings = <&mo0toShift>, <&to0_kp_Z>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
     };
 };
 
