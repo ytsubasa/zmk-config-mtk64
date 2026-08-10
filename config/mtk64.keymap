@@ -149,28 +149,56 @@
         to0_kp_Control: to0_kp_Control {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &kp LEFT_CONTROL>;
+            bindings =
+                <&to 0>,
+                <&macro_press>,
+                <&kp LEFT_CONTROL>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL>;
+
             label = "TO0_KP_CONTROL";
         };
 
         to0_kp_Shift: to0_kp_Shift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &kp LEFT_SHIFT>;
+            bindings =
+                <&to 0>,
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
             label = "TO0_KP_SHIFT";
         };
 
         to0_kp_Option: to0_kp_Option {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &kp LEFT_ALT>;
+            bindings =
+                <&to 0>,
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_ALT>;
+
             label = "TO0_KP_OPTION";
         };
 
         to0_kp_Command: to0_kp_Command {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &kp LEFT_GUI>;
+            bindings =
+                <&to 0>,
+                <&macro_press>,
+                <&kp LEFT_GUI>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_GUI>;
+
             label = "TO0_KP_COMMAND";
         };
 
