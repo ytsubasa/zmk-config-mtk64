@@ -175,6 +175,27 @@
             bindings = <&to 0 &kp NUMBER_3>;
             label = "TO0_KP_3";
         };
+
+        to0_kp_4: to0_kp_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp NUMBER_4>;
+            label = "TO0_KP_4";
+        };
+
+        to0_kp_5: to0_kp_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp N5>;
+            label = "TO0_KP_5";
+        };
+
+        to0_kp_6: to0_kp_6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp NUMBER_6>;
+            label = "TO0_KP_6";
+        };
     };
 
     keymap {
