@@ -92,11 +92,11 @@
             label = "MO4TO0";
         };
 
-        to0_trans: new_macro {
+        to0_kp_ESC: to0_kp_ESC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &trans>;
-            label = "NEW_MACRO";
+            bindings = <&to 0 &kp ESCAPE>;
+            label = "TO0_KP_ESC";
         };
     };
 
