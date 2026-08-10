@@ -281,11 +281,11 @@
             label = "TO0_KP_G";
         };
 
-        to0_kp_BackSpace: to0_kp_B {
+        to0_kp_BackSpace: to0_kp_BackSpace {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0 &kp BACKSPACE>;
-            label = "TO0_KP_B";
+            label = "TO0_KP_BACKSPACE";
         };
     };
 
