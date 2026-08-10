@@ -77,6 +77,16 @@
             tapping-term-ms = <300>;
             flavor = "tap-preferred";
         };
+
+        to0_c_holdOption: to0_c_holdOption {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TO0_C_HOLDOPTION";
+            bindings = <&mo0toOption>, <&to0_kp_C>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+        };
     };
 };
 
