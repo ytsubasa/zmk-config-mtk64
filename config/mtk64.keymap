@@ -343,7 +343,7 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LS(F))  &trans  &trans  &trans  &trans  &trans  &trans  &to0_trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to0_kp_ESC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to0_kp_TAB  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LS(F))  &trans  &to0_kp_Control  &trans  &trans  &trans  &trans  &to0_trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &to0_kp_Shift  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &to0_kp_Option  &to0_kp_Command  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
