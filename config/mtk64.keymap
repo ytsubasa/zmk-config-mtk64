@@ -196,6 +196,34 @@
             bindings = <&to 0 &kp NUMBER_6>;
             label = "TO0_KP_6";
         };
+
+        to0_kp_7: to0_kp_7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp N7>;
+            label = "TO0_KP_7";
+        };
+
+        to0_kp_8: to0_kp_8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp N8>;
+            label = "TO0_KP_8";
+        };
+
+        to0_kp_9: to0_kp_9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp N9>;
+            label = "TO0_KP_9";
+        };
+
+        to0_kp_0: to0_kp_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp N0>;
+            label = "TO0_KP_0";
+        };
     };
 
     keymap {
