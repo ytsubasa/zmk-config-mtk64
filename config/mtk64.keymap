@@ -98,6 +98,20 @@
             bindings = <&to 0 &kp ESCAPE>;
             label = "TO0_KP_ESC";
         };
+
+        to0_kp_TAB: to0_kp_TAB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp TAB>;
+            label = "TO0_KP_TAB";
+        };
+
+        to0_kp_Control: to0_kp_Control {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 0 &kp LEFT_CONTROL>;
+            label = "TO0_KP_CONTROL";
+        };
     };
 
     keymap {
