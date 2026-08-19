@@ -11,7 +11,6 @@
 &mt {
     flavor = "tap-preferred";
     quick-tap-ms = <0>;
-    tapping-term-ms = <250>;
 };
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 6 5000>; };
