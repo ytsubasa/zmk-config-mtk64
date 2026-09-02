@@ -10,7 +10,7 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <120>;
+    tapping-term-ms = <180>;
 };
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 6 5000>; };
@@ -53,7 +53,7 @@
             bindings = <&mo4to0>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <120>;
+            tapping-term-ms = <180>;
             flavor = "tap-preferred";
         };
 
@@ -63,7 +63,7 @@
             bindings = <&kp>, <&to0_kp_Z>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <120>;
+            tapping-term-ms = <180>;
             flavor = "tap-preferred";
         };
 
@@ -73,7 +73,7 @@
             bindings = <&kp>, <&to0_kp_X>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <120>;
+            tapping-term-ms = <180>;
             flavor = "tap-preferred";
         };
 
@@ -83,7 +83,7 @@
             bindings = <&kp>, <&to0_kp_C>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <120>;
+            tapping-term-ms = <180>;
             flavor = "tap-preferred";
         };
 
@@ -93,7 +93,7 @@
             bindings = <&kp>, <&to0_kp_V>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <120>;
+            tapping-term-ms = <180>;
             flavor = "tap-preferred";
         };
     };
