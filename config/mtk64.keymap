@@ -9,7 +9,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 &mt {
-    flavor = "tap-preferred";
+    flavor = "hold-preferred";
     tapping-term-ms = <180>;
 };
 
@@ -44,7 +44,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
         };
 
         layer4_tap: layer4_tap {
@@ -54,7 +54,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
         };
 
         to0_z_holdShift: to0_z_holdShift {
@@ -64,7 +64,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
         };
 
         to0_x_holdControl: to0_x_holdControl {
@@ -74,7 +74,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
         };
 
         to0_c_holdOption: to0_c_holdOption {
@@ -84,7 +84,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
         };
 
         to0_v_holdCommand: to0_v_holdCommand {
@@ -94,7 +94,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <180>;
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
         };
     };
 };
