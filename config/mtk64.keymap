@@ -8,10 +8,7 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
-&mt {
-    flavor = "hold-preferred";
-    tapping-term-ms = <180>;
-};
+&mt { flavor = "balanced"; };
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 6 5000>; };
 
@@ -43,8 +40,8 @@
             bindings = <&mo1to0>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
-            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            flavor = "balanced";
         };
 
         layer4_tap: layer4_tap {
@@ -53,8 +50,8 @@
             bindings = <&mo4to0>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
-            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            flavor = "balanced";
         };
 
         to0_z_holdShift: to0_z_holdShift {
@@ -63,8 +60,8 @@
             bindings = <&kp>, <&to0_kp_Z>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
-            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            flavor = "balanced";
         };
 
         to0_x_holdControl: to0_x_holdControl {
@@ -73,8 +70,8 @@
             bindings = <&kp>, <&to0_kp_X>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
-            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            flavor = "balanced";
         };
 
         to0_c_holdOption: to0_c_holdOption {
@@ -83,8 +80,8 @@
             bindings = <&kp>, <&to0_kp_C>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
-            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            flavor = "balanced";
         };
 
         to0_v_holdCommand: to0_v_holdCommand {
@@ -93,8 +90,8 @@
             bindings = <&kp>, <&to0_kp_V>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
-            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            flavor = "balanced";
         };
     };
 };
