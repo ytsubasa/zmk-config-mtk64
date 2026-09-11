@@ -93,6 +93,15 @@
             tapping-term-ms = <200>;
             flavor = "balanced";
         };
+
+        SpecialDeletion: SpecialDeletion {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SPECIALDELETION";
+            #binding-cells = <0>;
+            bindings = <&kp LC(BACKSPACE)>, <&kp LG(BACKSPACE)>, <&kp LC(K)>;
+
+            tapping-term-ms = <150>;
+        };
     };
 };
 
@@ -323,7 +332,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RBKT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &lt 3 NUHS  &kp LSHFT  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &mt LEFT_GUI V  &kp B  &lt 3 LC(BACKSPACE)  &kp BACKSPACE  &kp N  &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL DOT  &mt RIGHT_SHIFT SLASH  &kp RETURN  &kp LALT  &kp LGUI  &layer1_tap 0 SPACE  &lt 2 SPACE  &kp BSPC  &layer4_tap 0 SPACE  &kp JP_UNDER  &kp RIGHT_SHIFT  &tog 2  &kp ENTER  &none  &lt 1 ENTER  &kp ENTER  &tog 2  &kp LANGUAGE_2  &kp LANGUAGE_1  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RBKT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &lt 3 NUHS  &kp LSHFT  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &mt LEFT_GUI V  &lt 3 B  &SpecialDeletion  &kp BACKSPACE  &kp N  &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL DOT  &mt RIGHT_SHIFT SLASH  &kp RETURN  &kp LALT  &kp LGUI  &layer1_tap 0 SPACE  &lt 2 SPACE  &kp BSPC  &layer4_tap 0 SPACE  &kp JP_UNDER  &kp RIGHT_SHIFT  &tog 2  &kp ENTER  &none  &lt 1 ENTER  &kp ENTER  &tog 2  &kp LANGUAGE_2  &kp LANGUAGE_1  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings =
@@ -372,7 +381,7 @@
 
         layer_6_AutoMouse {
             bindings = <
-&to0_kp_ESC  &to0_kp_1  &to0_kp_2  &to0_kp_3  &to0_kp_4  &to0_kp_5  &to0_kp_6  &to0_kp_7  &to0_kp_8  &to0_kp_9  &to0_kp_0  &trans  &trans  &to0_kp_Q  &to0_kp_W  &to0_kp_E  &to0_kp_R  &to0_kp_T  &kp F11  &kp F12  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LS(F))  &trans  &trans  &to0_kp_A  &to0_kp_S  &to0_kp_D  &to0_kp_F  &to0_kp_G  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &trans  &to0_z_holdShift LEFT_SHIFT 0  &to0_x_holdControl LEFT_CONTROL 0  &to0_c_holdOption LEFT_ALT 0  &to0_v_holdCommand LEFT_GUI 0  &to0_kp_B  &trans  &to0_kp_BackSpace  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to0_kp_ESC  &to0_kp_1  &to0_kp_2  &to0_kp_3  &to0_kp_4  &to0_kp_5  &to0_kp_6  &to0_kp_7  &to0_kp_8  &to0_kp_9  &to0_kp_0  &trans  &trans  &to0_kp_Q  &to0_kp_W  &to0_kp_E  &to0_kp_R  &to0_kp_T  &kp F11  &kp F12  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LG(LS(F))  &trans  &trans  &to0_kp_A  &to0_kp_S  &to0_kp_D  &to0_kp_F  &to0_kp_G  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &trans  &to0_z_holdShift LEFT_SHIFT 0  &to0_x_holdControl LEFT_CONTROL 0  &to0_c_holdOption LEFT_ALT 0  &to0_v_holdCommand LEFT_GUI 0  &mo 3  &trans  &to0_kp_BackSpace  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
