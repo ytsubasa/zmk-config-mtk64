@@ -375,7 +375,7 @@
 
         layer_6_AutoMouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &to0_kp_6  &to0_kp_7  &to0_kp_8  &to0_kp_9  &to0_kp_0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(LA(LEFT_ARROW))  &kp LC(LA(RIGHT_ARROW))  &kp LG(LS(F))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &trans  &trans  &trans  &trans  &trans  &mo 3  &trans  &to0_kp_BackSpace  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &to0_kp_6  &to0_kp_7  &to0_kp_8  &to0_kp_9  &to0_kp_0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &kp LG(LS(F))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &trans  &trans  &trans  &trans  &trans  &mo 3  &trans  &to0_kp_BackSpace  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
