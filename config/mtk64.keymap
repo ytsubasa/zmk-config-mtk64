@@ -323,7 +323,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RBKT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp SEMICOLON  &lt 3 NUHS  &kp LSHFT  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &mt LEFT_GUI V  &lt 3 B  &kp LC(BACKSPACE)  &kp BACKSPACE  &kp N  &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL DOT  &mt RIGHT_SHIFT SLASH  &kp RETURN  &kp LALT  &kp LGUI  &layer1_tap 0 SPACE  &lt 2 SPACE  &kp BSPC  &layer4_tap 0 SPACE  &kp JP_UNDER  &kp RIGHT_SHIFT  &tog 2  &kp ENTER  &none  &lt 1 ENTER  &kp ENTER  &tog 2  &kp LANGUAGE_2  &kp LANGUAGE_1  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp RBKT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &lt 3 SEMICOLON  &kp NUHS  &kp LSHFT  &mt LEFT_SHIFT Z  &mt LEFT_CONTROL X  &mt LEFT_ALT C  &mt LEFT_GUI V  &lt 3 B  &kp LC(BACKSPACE)  &kp BACKSPACE  &kp N  &mt RIGHT_COMMAND M  &mt RIGHT_ALT COMMA  &mt RIGHT_CONTROL DOT  &mt RIGHT_SHIFT SLASH  &kp RETURN  &kp LALT  &kp LGUI  &layer1_tap 0 SPACE  &lt 2 SPACE  &kp BSPC  &layer4_tap 0 SPACE  &kp JP_UNDER  &kp RIGHT_SHIFT  &tog 2  &kp ENTER  &none  &lt 1 ENTER  &kp ENTER  &tog 2  &kp LANGUAGE_2  &kp LANGUAGE_1  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings =
@@ -372,7 +372,7 @@
 
         layer_6_AutoMouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &to0_kp_6  &to0_kp_7  &to0_kp_8  &to0_kp_9  &to0_kp_0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &kp LG(LS(F))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &kp LG(F)  &mo 3  &trans  &trans  &trans  &trans  &trans  &mo 3  &trans  &to0_kp_BackSpace  &kp LG(R)  &mt RIGHT_GUI LG(C)  &mt RIGHT_ALT LG(V)  &mt LEFT_CONTROL LG(Z)  &mt RIGHT_SHIFT LG(LS(Z))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &to0_kp_6  &to0_kp_7  &to0_kp_8  &to0_kp_9  &to0_kp_0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F11  &kp F12  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &kp LG(F)  &kp LG(LS(Z))  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &mkp MB5  &mo 3  &kp LC(UP_ARROW)  &trans  &trans  &trans  &trans  &trans  &mo 3  &trans  &to0_kp_BackSpace  &kp LG(R)  &mt (RIGHT_GUI) LG(C)  &mt (RIGHT_ALT) LG(V)  &mt (LEFT_CONTROL) LG(Z)  &mt (RIGHT_SHIFT) LG(LS(Z))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans  &lang2_reset  &lang1_reset  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
